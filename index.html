@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>FindStay</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/FindStayIcon.ico" type="image/x-icon" alt="FindStay.com , فايند ستاى" />
+    <meta name="description" content="Book your vacation stay in chalet or villa or apartment on findstay, also you can list your property to gain extra income , Just enter now">
+    <meta name="keywords" content="find stay ,find my stay, stay, accommodation, special offers , booking , specials, weekend , Egypt , vacation ,accommodation ,trips,deals, rent,Reservations, budget, cheap, discount,packages, offers , savings ,income , أجازة, إقامة , مصيف, حجز, تعليقات , شاليهات , شقق , سكن , عطلات , أسعار مش حتصدقها , عروض سفر">
+    <meta name="robots" content="index,follow">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="mystyle.css">
+
+    <script src="mansonry.pkgd.min.js"></script>
+    
+    
+   
+ 
+</head>
+<body>
+    
+    <!--navbar-->
+<nav class="navbar navbar-custom navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">My Booking</a></li>
+            <li><a href="#about">Contact Us</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">About Us</a></li>
+                 <li><a href="#">Help Center</a></li>
+                <li><a href="#">Make An Inquery</a></li>
+               
+                                 
+              </ul>
+                               
+            </li>
+              
+              <li role="separator" class="divider"></li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Sing up</a></li>
+                <li><a href="#">List Your Property</a></li>
+          </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <!--navbar-->
+    
+    
+    <!--cover-->
+    
+    <div class="contaner-fluid">
+        
+        <div class="module">  
+  <header class="typewriter">
+     <h1>FindStay</h1> 
+     <p>Book your next stay or family vacation in Egypt now</p> 
+      
+          <input type="button" class="button" data-toggle="modal" data-target="#myModal" value="Search &#xF002;">
+      
+   
+      <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-md">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      
+      <div class="modal-body">
+                   
+          <div class="form-style-6">
+<h2>Vacation Checking</h2>
+<form class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-sm-3" for="selectedcity">Select City:</label>
+                <div class="col-sm-9">
+                  <select name="SelectedCity" id="selectedcity">
+			                    <option value="">Select City</option>
+			                    <option value="2">Alexandria</option>
+			                    <option value="3">Martha Matrouh</option>
+			                    <option value="4">Ain Sokhna</option>
+			                    <option value="5">Cairo</option>
+			                    <option value="6">North Cost</option>
+			                </select>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="control-label col-sm-3" for="selectedcity">Select District:</label>
+                <div class="col-sm-9">
+                     <select name="Districts">
+                                <option value="" disabled>all Districts</option>
+
+                        </select>
+                  </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-3" for="checkinDate">Check-In:</label>
+                <div class="col-sm-9"> 
+                  <input type="date" class="form-control" id="checkinDate">
+                </div>
+              </div>
+              <div class="form-group"> 
+                <label class="control-label col-sm-3" for="checkinDate">Check-Out:</label>
+                <div class="col-sm-9"> 
+                  <input type="date" class="form-control" id="checkoutDate">
+                </div>
+              </div>
+              
+              <div class="form-group">
+              <label class="control-label col-sm-3" for="selectedcity">Select District:</label>
+                <div class="col-sm-9">
+               <select name="guest">
+			                    <option value="">How Many Children ?</option>
+			                    <option value="1">1</option>
+			                    <option value="2">2</option>
+			                    <option value="3">3</option>
+			                    <option value="4">4</option>
+			                    <option value="5">5</option>
+			                </select>
+              </div>
+              </div>
+              <div class="form-group"> 
+                <div class="col-sm-12">
+                  <input type="submit" class="btn btn-default">
+                </div>
+              </div>
+    
+    
+          </form> 
+            </div>
+                
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+      
+      
+  </header>
+                   
+</div>
+    
+    </div>
+    
+  
+<!--cover-->
+    
+    
+    <!-- banner-bottom -->
+    <div class="row">
+	<div class="banner-bottom w3-agileits-bnr-btm">
+		<div class="col-sm-6 col-xs-6 bnr-btm-left">
+			<h5>Enjoy More Space For Family</h5>
+			<p>Select your stay in an apartment, villa or chalet and enjoy privacy and space for your family</p>
+		</div>
+		<div class="col-sm-6 col-xs-6 bnr-btm-right">	
+			<h5>Payment Protection</h5>
+			<p>Book wish our Secured online payment system or by any of our other different payment options</p>
+		</div>
+		<div class="clearfix"> </div>	
+	</div>
+        </div>
+	<!-- //banner-bottom end -->
+    
+    
+    <!--most popural-->
+
+    <div class="container-fluid">
+        <div class="wrappingbox">
+        <div class="row">
+            <div class="secTitle">
+            <h1>Most Popular Destinations</h1>
+            </div>
+            <div class="gallery2">
+           <div>
+
+		<ul>
+			<li>
+				<img src="images/sharm.jpg" alt="Sharm ElShekh">
+			</li>
+			<li>
+				<img src="images/alex.jpg" alt="Alexandria">
+		    </li>
+			<li>
+				<img src="images/cairo.jpg" alt="Cairo">
+		    </li>
+			<li>
+				<img src="images/hurgada.jpg" alt="Hurgada">
+		    </li>
+			<li>
+				<img src="images/matrouh.jpg" alt="Matrouh">
+		    </li>
+			<li>
+                <img src="images/northcoast.jpg" alt="North Coast">
+		    </li>
+            <li>
+                <img src="images/ainso5na.jpg" alt="Ain ElSokhna">
+		    </li>
+		</ul>
+
+	</div></div>
+        
+        </div>
+    </div>
+    </div>
+
+        <!--most popular end-->
+    
+    
+    <!--video section-->
+ <div class="container-fluid">
+     <div class="wrappingbox separetor">
+  <div class="row ">
+    <div class="col-md-8">
+      <div class="desktop-wrapper ">        
+          <video width="560" height="315" controls>
+                <source src="findstayVideo.mp4" type="video/mp4">
+            </video>
+      </div>
+    </div>
+      <div class="col-md-4 videoText ">
+      <h1>How It Works </h1>
+    </div>
+  </div>
+         </div>
+</div>
+    
+    <!--video section end-->
+
+    
+    
+    <!--scrolling ver2 section-
+ <div class="container-fluid">
+     <div class="wrappingbox ">
+  <div class="row ">
+      
+      <div id="carousel">
+      <a href="#"><img src="images/offer1.jpg" id="item-1" /></a>
+      <a href="#"><img src="images/offer2.jpg" id="item-2" /></a>
+      <a href="#"><img src="images/offer3.jpg" id="item-3" /></a>
+      <a href="#"><img src="images/offer4.jpg" id="item-4" /></a>
+      <a href="#"><img src="images/offer5.jpg" id="item-5" /></a>
+      <a href="#"><img src="images/offer6.jpg" id="item-6" /></a>
+      <a href="#"><img src="images/offer7.jpg" id="item-7" /></a>
+      <a href="#"><img src="images/offer8.jpg" id="item-8" /></a>
+      <a href="#"><img src="images/9.jpg" id="item-9" /></a>
+    </div>
+    <a href="#" id="prev">Prev</a> | <a href="#" id="next">Next</a>
+      
+    
+    </div>
+  </div>
+         </div>
+    
+    <!--scrolling ver2 section end-->
+
+    
+
+    
+    
+    <!--scrolling section-->
+
+<div class="container-fluid"> 
+    <div class="wrappingbox">
+        <div class="secTitle">
+            <h1>Our Offers!</h1>
+            </div>
+  <div class="row">
+    
+      
+         <div class="col-md-2"><div class="prev ">Prev</div></div>
+        <div class="col-md-8">
+            <div class="container1" style="padding-top:100px;">
+              <div class="carousel">
+                <div class="item a">
+                  
+                  
+                  <div class="tile"> 
+  <img src='images/offer7.jpg'/>
+  <div class="text">
+  <h1>55 % Off</h1>
+  <h2 class="animate-text">Alexandria</h2>
+  <p class="animate-text">Nice Apartment for rent in El Mandara </p>
+
+  </div>
+ </div>
+                  
+                  
+                  
+                  </div>
+                  
+                  
+                  
+                <div class="item b">
+                    <div class="tile"> 
+  <img src='images/offer3.jpg'/>
+  <div class="text">
+  <h1>50 % Off</h1>
+  <h2 class="animate-text"> Ain Sokhna</h2>
+  <p class="animate-text">Nice Chalet for rent in Porto South Beach  </p>
+
+  </div>
+ </div>
+                    </div>
+                <div class="item c"><div class="tile"> 
+  <img src='images/offer4.jpg'/>
+  <div class="text">
+  <h1>40 % Off</h1>
+  <h2 class="animate-text">Alexandria</h2>
+  <p class="animate-text">Nice Apartment for rent in El Mandara </p>
+
+  </div>
+ </div></div>
+                <div class="item d"><div class="tile"> 
+  <img src='images/offer6.jpg'/>
+  <div class="text">
+  <h1>15 % Off</h1>
+  <h2 class="animate-text"> Ain Sokhna</h2>
+  <p class="animate-text">Nice Chalet for rent in Porto South Beach  </p>
+      
+  </div>
+ </div></div>
+                <div class="item e"><div class="tile"> 
+  <img src='images/offer1.jpg'/>
+  <div class="text">
+  <h1>50 % Off</h1>
+  <h2 class="animate-text">Alexandria</h2>
+  <p class="animate-text">Nice Apartment for rent in El Mandara </p>
+
+  </div>
+ </div></div>
+                <div class="item f"><div class="tile"> 
+  <img src='images/offer9.jpg'/>
+  <div class="text">
+  <h1>50 % Off</h1>
+  <h2 class="animate-text"> Ain Sokhna</h2>
+  <p class="animate-text">Nice Chalet for rent in Porto South Beach  </p>
+
+  </div>
+ </div></div>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+        <div class="next">Next</div>
+        </div>
+      
+      
+      
+  </div>
+    </div>
+</div>
+
+    
+    
+    
+    
+    
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3 ><img src="images/FindStayLog_sm.png"></h3>
+
+				<p class="footer-links">
+					<a href="#">My Booking</a>
+					·
+					<a href="#">Contact Us</a>
+					·
+					<a href="#">Menu</a>
+					·
+					<a href="#">Log In</a>
+					·
+					<a href="#">Sing Up</a>
+					·
+					<a href="#">Lest Your Property</a>
+				</p>
+
+				<p class="footer-company-name">FindStay &copy; 2017</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>402 Gamal Abdel Nasser st, Al-Mandarah</span> Alexandria , Egypt</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>03-5509621 / 01275026950 / 01063312788</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:info@findstay.com">info@findstay.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Online Booking Company</span>
+					FindStay.com is the first smart and sophisticated accommodations advertisement website in Egypt which specialized in advertising privately owned properties for family vacations or accommodations.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/FindStayeg/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/FindStayeg"><i class="fa fa-twitter"></i></a>
+					<a href="https://plus.google.com/u/0/108763899973157246728"><i class="fa fa-google-plus"></i></a>
+					<a href="https://www.pinterest.com/findstaycom/pins/"><i class="fa fa-pinterest"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+ <script src="myscribt.js"></script>
+    
+    
+</body>
+</html>
